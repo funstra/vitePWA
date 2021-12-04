@@ -12,7 +12,7 @@ export default defineConfig({
         manifest: {
             "name": "Vite PWA",
             "short_name": "VPWA",
-            "start_url": "/index.html",
+            "start_url": "index.html",
             "display": "standalone",
             "background_color": "#fff",
             "description": "...",
