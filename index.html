@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="src/assets/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+
+
+  <link rel="apple-touch-icon" href="icons/apple-icon-180.png">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-2732.jpg"
+    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2732-2048.jpg"
+    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2388.jpg"
+    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2388-1668.jpg"
+    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1536-2048.jpg"
+    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-1536.jpg"
+    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2224.jpg"
+    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2224-1668.jpg"
+    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1620-2160.jpg"
+    media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2160-1620.jpg"
+    media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1284-2778.jpg"
+    media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2778-1284.jpg"
+    media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1170-2532.jpg"
+    media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2532-1170.jpg"
+    media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1125-2436.jpg"
+    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2436-1125.jpg"
+    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2688.jpg"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2688-1242.jpg"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-828-1792.jpg"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1792-828.jpg"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2208.jpg"
+    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-2208-1242.jpg"
+    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-750-1334.jpg"
+    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1334-750.jpg"
+    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-640-1136.jpg"
+    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="icons/apple-splash-1136-640.jpg"
+    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+</head>
+
+<body>
+
+  <body data-drawer="close" data-view="none">
+    <div style="
+    color: #555
+    ;text-shadow: 
+    2px 2px red,
+    4px 4px blue,
+    6px 6px yellow,
+    8px 8px orange
+    ;font-size: 400px;font-family: monospace; position: absolute;transition: opacity 500ms;">
+      &SquareSubsetEqual;
+    </div>
+    <main hidden
+      style="will-change: transform,opacity;opacity: 0;transform: translateY(-25%); transition: opacity 2000ms,transform 500ms;">
+      <div id="listing">
+        <template>
+          <li class="product hidden">
+            <div class="content">
+              <div class="img">
+                <img loading="lazy" alt="">
+              </div>
+              <div class="info"></div>
+            </div>
+            <div class="controll"></div>
+          </li>
+        </template>
+        <ul class="products">
+        </ul>
+      </div>
+      <div id="drawer">
+        <div class="inner">
+          <div class="menu-container">
+            <!-- <p>h: <span></span></p> -->
+            <ul class="menu">
+              <li data-role="reload" onclick="location.reload()">&#xe001;</li>
+              <li data-role="clear" onclick="__setDrawerState(event,'clear','close')">&#xe002;</li>
+              <li data-role="fullscreen" onclick="__fullscreen()">&#xe003;</li>
+              <li data-role="book" onclick="__setDrawerState(event,'book')">&#xe004;</li>
+            </ul>
+          </div>
+          <div class="view">
+            <div class="inner"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      __AppClosure = {
+        context: {
+          drawer: 'close',
+          view: 'none'
+        },
+        products: [],
+        selected: []
+      }
+      const contextMap = new Map()
+      contextMap.set('clear', () => {
+        const products = document.querySelectorAll('#listing .products li')
+        for (const product of products) {
+          product.style = ''
+          product.dataset.lock = 'false'
+          product.dataset.count = ''
+          const controll = product.querySelector('.controll')
+          controll.textContent = ''
+          controll.style.removeProperty('--count')
+        }
+      })
+      addEventListener('app-context', e => {
+        const [view, drawer] = e.detail.action.split(':')
+        console.log(view)
+        console.log(drawer)
+        document.body.dataset.drawer = drawer
+        __AppClosure.context.drawer = drawer
+        document.body.dataset.view = view
+        __AppClosure.context.view = view
+        try {
+          contextMap.get(view)()
+        } catch (err) {
+          // console.error(err)
+        }
+      })
+
+      __setDrawerState = (e, view, forceDrawer) => {
+        console.log(forceDrawer ?? 'bla')
+        const s = __AppClosure.context.drawer == 'open'
+        const c = __AppClosure.context.view
+        let message = ''
+        if (s) {
+          message = c == view ? `${view}:${forceDrawer ?? 'close'}` : `${view}:${forceDrawer ?? 'open'}`
+        } else {
+          message = `${view}:${forceDrawer ?? 'open'}`
+        }
+        console.log(message)
+        e.target.dispatchEvent(new CustomEvent('app-context', {
+          bubbles: true,
+          detail: {
+            action: message
+          }
+        }))
+      }
+
+      __fullscreen = function () {
+        if (document.fullscreenElement) {
+          document.exitFullscreen()
+        } else {
+          if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen();
+          } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen();
+          } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen();
+          } else if (document.documentElement.msRequestFullscreen) {
+            document.documentElement.msRequestFullscreen();
+          }
+        }
+      }
+      onload = e => {
+        setTimeout(() => {
+          const hello = document.querySelector('div')
+          hello.style.opacity = 0
+          const main = document.querySelector('main')
+          main.hidden = false
+          main.style.opacity = 1
+          main.style.transform = 'translateY(0%)'
+          setTimeout(() => {
+            hello.remove()
+          }, 300);
+        }, 300);
+      }
+    </script>
+  </body>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+@import "./listing.css";
+@import "./drawer.css";
+@font-face {
+  font-family: "icomoon";
+  src: url("../assets/font/icomoon.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+html {
+  --good: rgb(165, 235, 101);
+}
+
+html {
+  height: 100%;
+  font-family: monospace;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  padding: 1ch;
+}
+
+main {
+  height: inherit;
+  overflow-y: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+
+.hidden {
+  opacity: 0;
+}
+.menu {
+  font-family: icomoon;
+}

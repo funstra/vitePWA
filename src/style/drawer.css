@@ -1,0 +1,45 @@
+[data-drawer="open"] #drawer {
+  height: calc(var(--h-offset, 0%) + 50%);
+}
+
+#drawer {
+  touch-action: none;
+  user-select: none;
+  will-change: height;
+  padding-top: 0.5em;
+  height: calc(2em + var(--h-offset, 0%));
+  font-size: 25px;
+}
+#drawer .inner {
+  height: 100%;
+}
+
+#drawer ul {
+  display: flex;
+  margin-left: auto;
+  width: 50%;
+  justify-content: space-around;
+}
+#drawer li {
+  text-align: center;
+  line-height: 1em;
+}
+
+#drawer .inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+#drawer .view {
+  flex-grow: 1;
+}
+
+#drawer .view .inner {
+  background-color: red;
+  opacity: 0;
+  transition: opacity 150ms;
+}
+[data-view="book"] #drawer .view .inner {
+  opacity: 1;
+}
