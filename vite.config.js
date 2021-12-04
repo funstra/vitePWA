@@ -2,10 +2,10 @@ import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-    base: "vitePWA",
+    base: "/vitePWA/",
     plugins: [VitePWA({
         mode: "development",
-        base: "/vitePWA",
+        base: "/vitePWA/",
         filename: "sw.js",
         includeAssets: ["/favicon.svg"],
         strategies: "injectManifest",
