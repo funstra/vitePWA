@@ -9,6 +9,8 @@ export default defineConfig({
         filename: "sw.js",
         includeAssets: ["/favicon.svg"],
         strategies: "injectManifest",
+        registerType: 'autoUpdate',
+        injectRegister: "inline",
         manifest: {
             "name": "Vite PWA",
             "short_name": "VPWA",
